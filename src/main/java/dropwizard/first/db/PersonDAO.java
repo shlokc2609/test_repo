@@ -24,7 +24,7 @@ public class PersonDAO extends AbstractDAO<Person>{
     }
 	public List<Person> findAll() {
 		// TODO Auto-generated method stub
-	
+		System.out.println("sss");
 		return list(namedQuery("com.example.helloworld.core.Person.findAll"));
 	}
 	public Person update(Person param) {

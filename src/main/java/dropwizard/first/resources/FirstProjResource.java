@@ -59,6 +59,7 @@ public class FirstProjResource {
     @Timed
     @UnitOfWork
     public List<Person> listPeople() {
+    
         return peopleDAO.findAll();
     }
 }
